@@ -1,0 +1,146 @@
+{
+  "testing": "eesssaaaaiiiiii",
+  "navigator": {
+    "wallet": "Portefeuille",
+    "trade": "Échanger",
+    "explorer": "Explorer",
+    "settings": "Paramêtres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "items": {
+      "language": "Langue"
+    }
+  },
+  "marketInfo": {
+    "title": "Info Marché",
+    "items": {
+      "reserve": "Réserve",
+      "marketcap": "Marketcap",
+      "circulation": "Circulation",
+      "hodlcPrice": "Prix HODL"
+    }
+  },
+  "wallet": {
+    "balances": {
+      "title": "Solde Du Portefeuille",
+      "card": {
+        "eth": {
+          "btn1": "Dépôt",
+          "btn2": "Retrait"
+        },
+        "hodlc": {
+          "btn1": "Échanger",
+          "btn2": "Vers HODLT"
+        },
+        "hodlt": {
+          "btn1": "Approuver",
+          "btn2": "Vers HODLC",
+          "approveToRedeem": "Sont approuvés pour convertir"
+        }
+      }
+    },
+    "transactions": {
+      "title": "Transactions"
+    },
+    "notify": {
+      "nothing": "Nothing happens :)",
+      "notConnected": "Metamask/Mist is not connected, try again.",
+      "depositeEthMax": "You can only deposite at most {{limit}} {{type}}.",
+      "withdrawEthMax": "You can only withdraw at most {{eth}} {{type}}.",
+      "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
+      "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
+      "approveMax": "You can only approve at most {{limit}} {{type}}.",
+      "toHodlc": "You convert {{amount}} HODLT to {{amount}} HODLC, waiting for Ethereum to confirm.",
+      "toHodlt": "You convert {{amount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "otherActions": {
+        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "action": {
+          "deposit": "deposit",
+          "withdraw": "withdraw",
+          "approve": "approve"
+        },
+        "units": {
+          "eth": "ETH",
+          "hodlt": "HODLT"
+        }
+      }
+    }
+  },
+  "eventList": {
+    "title": {
+      "my": "Mes événements ({{number}} events)",
+      "global": "Événement Global ({{number}} events)"
+    },
+    "lengthOptions": {
+      "1hour": "dernière heure",
+      "6hour": "dernière 6 heures",
+      "24hour": "dernier jour",
+      "72hour": "dernier 3 jours",
+      "168hour": "dernière semaine",
+      "all": "toujours"
+    },
+    "list": {
+      "noEvents": "Pas d'événements",
+      "header": {
+        "txnHash": "Txn Hash",
+        "address": "Adresse",
+        "block": "Block",
+        "action": "Action"
+      }
+    }
+  },
+  "trade": {
+    "info": {
+      "balances": "Vos Balances"
+    },
+    "switcher": {
+      "buy": "Acheter",
+      "sell": "Vendre"
+    },
+    "promptToConnet": {
+      "connect": "Se Connecter",
+      "startTrade": "Pour commencer à échanger"
+    },
+    "form": {
+      "placeholder": "Ajouter une valeur...",
+      "equivalent": "équivalent",
+      "estimate": "estimé",
+      "action": {
+        "buy": "Acheter",
+        "sell": "Vendre"
+      }
+    },
+    "orderBook": {
+      "global": "Commandes Globales",
+      "myOrders": "Mes Commandes",
+      "singleOrder": "Total {{amount}} {{units}} dans la file d'attente",
+      "multiOrders": "Total {{amount}} {{units}}s dans la file d'attente",
+      "title": {
+        "orderId": "Numéro De Commande",
+        "price": "Prix",
+        "buy": "Acheteur",
+        "sell": "Vendeur"
+      },
+      "noEvent": "Pas d'événements",
+      "cancel": "Annuler"
+    },
+    "alert": "Metamask ou Mist n'est pas installé. Vous devriez envisager d'essayer MetaMask ou Mist!",
+    "notify": {
+      "cancel": "Vous annulez la commande de {{id}}, en attente de confirmation d'Ethereum.",
+      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
+      "sellMin": "Vendez au Minimum {{min}} HODLC, au taux actuel.",
+      "sellMax": "Vendez au maximum {{max}} HODLC, au taux actuel.",
+      "successSell": "Vous vendez {{hodlc}} HODLC, en attente de confirmation d'Ethereum.",
+      "buyMin": "Achetez avec au moins {{min}} ETH, au taux actuel.",
+      "buyMax": "Achetez avec au plus {{max}} ETH, au taux actuel.",
+      "successsBuy": "Vous Achetez {{hodlc}} HODLC, en attente de confirmation d'Ethereum."
+    },
+    "modal": {
+      "header": "Annuler la Commande",
+      "content": "Êtes-vous sûr de vouloir annuler cette commande?",
+      "no": "Non",
+      "cancel": "Annuler avec"
+    }
+  }
+}
