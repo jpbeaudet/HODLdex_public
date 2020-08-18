@@ -1,5 +1,8 @@
 {
   "testing": "setttiinnnnngggg",
+  "bottom": {
+    "twitterShare": "Hodl HODLC!"
+  },
   "navigator": {
     "wallet": "Wallet",
     "trade": "Trade",
@@ -39,9 +42,6 @@
           "approveToRedeem": "are approved to redeem"
         }
       }
-    },
-    "transactions": {
-      "title": "Transactions"
     },
     "notify": {
       "nothing": "Nothing happens :)",
@@ -108,7 +108,8 @@
       "estimate": "estimate",
       "action": {
         "buy": "Buy",
-        "sell": "Sell"
+        "sell": "Sell",
+        "deposit": "Deposit"
       }
     },
     "orderBook": {

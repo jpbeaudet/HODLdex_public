@@ -1,0 +1,145 @@
+{
+  "testing": "测试试试试试试试",
+  "bottom": {
+    "twitterShare": "Hodl HODLC!"
+  },
+  "navigator": {
+    "wallet": "钱包",
+    "trade": "交易",
+    "explorer": "浏览器",
+    "settings": "设置"
+  },
+  "settings": {
+    "title": "设置",
+    "items": {
+      "language": "语言"
+    }
+  },
+  "marketInfo": {
+    "title": "市场资讯",
+    "items": {
+      "reserve": "剩余储备",
+      "marketcap": "总市值",
+      "circulation": "流通量",
+      "hodlcPrice": "HODLC 价格"
+    }
+  },
+  "wallet": {
+    "balances": {
+      "title": "钱包余额",
+      "card": {
+        "eth": {
+          "btn1": "存入",
+          "btn2": "提取"
+        },
+        "hodlc": {
+          "btn1": "交易",
+          "btn2": "兑换成 HODLT"
+        },
+        "hodlt": {
+          "btn1": "授权",
+          "btn2": "兑换成 HODLC",
+          "approveToRedeem": "以授权被兑换"
+        }
+      }
+    },
+    "notify": {
+      "nothing": "Nothing happens :)",
+      "notConnected": "Metamask/Mist is not connected, try again.",
+      "depositeEthMax": "You can only deposite at most {{limit}} {{type}}.",
+      "withdrawEthMax": "You can only withdraw at most {{eth}} {{type}}.",
+      "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
+      "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
+      "approveMax": "You can only approve at most {{limit}} {{type}}.",
+      "toHodlc": "You convert {{amount}} HODLT to {{amount}} HODLC, waiting for Ethereum to confirm.",
+      "toHodlt": "You convert {{amount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "otherActions": {
+        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "action": {
+          "deposit": "存入",
+          "withdraw": "提出",
+          "approve": "授權"
+        },
+        "units": {
+          "eth": "ETH",
+          "hodlt": "HODLT"
+        }
+      }
+    }
+  },
+  "eventList": {
+    "title": {
+      "my": "我的交易活动 ({{number}} 活动)",
+      "global": "全部交易活动 ({{number}} 活动)"
+    },
+    "lengthOptions": {
+      "1hour": "过去1小时内",
+      "6hour": "过去6小时内",
+      "24hour": "过去1天内",
+      "72hour": "过去3天内",
+      "168hour": "过去1周内",
+      "all": "全部时间内"
+    },
+    "list": {
+      "noEvents": "没有交易活动",
+      "header": {
+        "txnHash": "交易哈希值",
+        "address": "钱包地址",
+        "block": "区块",
+        "action": "类型"
+      }
+    }
+  },
+  "trade": {
+    "info": {
+      "balances": "您的总资产"
+    },
+    "switcher": {
+      "buy": "买入",
+      "sell": "卖出"
+    },
+    "promptToConnet": {
+      "connect": "链接到",
+      "startTrade": " 开始交易"
+    },
+    "form": {
+      "placeholder": "添加数值",
+      "equivalent": "等值",
+      "estimate": "估值",
+      "action": {
+        "buy": "买入",
+        "sell": "卖出"
+      }
+    },
+    "orderBook": {
+      "global": "全部订单",
+      "myOrders": "我的订单",
+      "singleOrder": "总共有{{amount}} {{units}}在队列中",
+      "multiOrders": "总共有{{amount}} {{units}}s在队列中",
+      "title": {
+        "orderId": "订单号",
+        "price": "价格",
+        "buy": "买家",
+        "sell": "卖家"
+      },
+      "noEvent": "没有交易活动",
+      "cancel": "取消"
+    },
+    "alert": "未安装Metamask或者Mist。 请您考虑使用MetaMask或者Mist！",
+    "notify": {
+      "cancel": "您取消订单{{id}}，请等待Ethereum的确认。",
+      "sellMin": "以当前价格，卖出至少{{min}}HODLC。",
+      "sellMax": "以当前价格，卖出最多{{max}}HODLC。",
+      "successSell": "您卖出{{hodlc}} HODLC请等待Ethereum的确认。",
+      "buyMin": "以当前价格，用至少{{min}} ETH买入。",
+      "buyMax": "以当前价格，用最多{{max}} ETH买入。",
+      "successsBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。"
+    },
+    "modal": {
+      "header": "取消订单",
+      "content": "您确认取消订单吗？",
+      "no": "否",
+      "cancel": "确认"
+    }
+  }
+}

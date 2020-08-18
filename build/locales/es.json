@@ -1,5 +1,8 @@
 {
   "testing": "setttiinnnnngggg",
+  "bottom": {
+    "twitterShare": "Hodl HODLC!"
+  },
   "navigator": {
     "wallet": "Billetera",
     "trade": "Intercambiar",
@@ -39,9 +42,6 @@
           "approveToRedeem": "están aprobados para canjear"
         }
       }
-    },
-    "transactions": {
-      "title": "Transacciones"
     },
     "notify": {
       "nothing": "Nothing happens :)",
@@ -108,7 +108,8 @@
       "estimate": "estimado",
       "action": {
         "buy": "Comprar",
-        "sell": "Vender"
+        "sell": "Vender",
+        "deposit": "Deposit"
       }
     },
     "orderBook": {

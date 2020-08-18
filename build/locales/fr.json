@@ -1,5 +1,8 @@
 {
   "testing": "eesssaaaaiiiiii",
+  "bottom": {
+    "twitterShare": "Hodl HODLC!"
+  },
   "navigator": {
     "wallet": "Portefeuille",
     "trade": "Échanger",
@@ -39,9 +42,6 @@
           "approveToRedeem": "Sont approuvés pour convertir"
         }
       }
-    },
-    "transactions": {
-      "title": "Transactions"
     },
     "notify": {
       "nothing": "Nothing happens :)",
@@ -108,7 +108,8 @@
       "estimate": "estimé",
       "action": {
         "buy": "Acheter",
-        "sell": "Vendre"
+        "sell": "Vendre",
+        "deposit": "Deposit"
       }
     },
     "orderBook": {
